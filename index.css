@@ -450,6 +450,9 @@ body:not(.user-is-tabbing) a:focus {
         align-items: initial;
         flex-direction: column-reverse;
     }
+    .portfoliopage__box {
+        align-items: initial;
+    }
 }
 
 .work__box:not(:last-child) {
