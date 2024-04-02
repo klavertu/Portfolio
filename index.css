@@ -504,6 +504,9 @@ body:not(.user-is-tabbing) a:focus {
             width: 50%;
     height: 50%;
     }
+    .portfoliopage__image-box {
+        flex: 1;
+        margin: 0 0 0 10rem;
 }
 
 @media(max-width: 900px) {
