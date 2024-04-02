@@ -451,6 +451,7 @@ body:not(.user-is-tabbing) a:focus {
         flex-direction: column-reverse;
     }
     .portfoliopage__box {
+        align-self: flex-start;
         align-items: initial;
     }
 }
@@ -507,6 +508,7 @@ body:not(.user-is-tabbing) a:focus {
     .portfoliopage__image-box {
         flex: 1;
         margin: 0 0 0 10rem;
+        align-self: flex-start;
 }
 
 @media(max-width: 900px) {
