@@ -477,7 +477,7 @@ body:not(.user-is-tabbing) a:focus {
 .portfoliopage__text {
     flex: 1;
     width: 65%;
-    font-size: .5em;
+    font-size: .75em;
 }
 
 .work__list {
@@ -581,10 +581,12 @@ body:not(.user-is-tabbing) a:focus {
     }
     
     .about__photo-container {
+        display: flex;
         flex: 1;
-        align-self: flex-start;
-        margin-right: 30px; /* Right margin */
         justify-content: center;
+        align-items: center;
+
+        margin-right: 30px; /* Right margin */
     }
    .about__photo {
         max-width: 100%; /* Ensure the image doesn't exceed its container width */
