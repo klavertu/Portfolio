@@ -562,10 +562,9 @@ body:not(.user-is-tabbing) a:focus {
     }
     
     .about__photo-container {
-        display: flex;
         flex: 1;
         margin: auto;
-        align-items: flex-start;
+        align-self: flex-start;
     }
 }
 
