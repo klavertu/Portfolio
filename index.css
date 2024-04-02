@@ -477,7 +477,7 @@ body:not(.user-is-tabbing) a:focus {
 .portfoliopage__text {
     flex: 1;
     width: 65%;
-    font-size: 1.875em;
+    font-size: .75em;
 }
 
 .work__list {
