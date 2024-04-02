@@ -509,6 +509,11 @@ body:not(.user-is-tabbing) a:focus {
         flex: 1;
         margin: 0 0 0 10rem;
         align-self: flex-start;
+    }
+    .portfoliopage__box {
+        align-self: flex-start;
+        align-items: initial;
+    }
 }
 
 @media(max-width: 900px) {
