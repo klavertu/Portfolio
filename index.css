@@ -564,6 +564,7 @@ body:not(.user-is-tabbing) a:focus {
     .about__photo-container {
         flex: 1;
         align-self: flex-start;
+        margin-right: 30px; /* Right margin */
     }
    .about__photo {
         max-width: 90%; /* Ensure the image doesn't exceed its container width */
