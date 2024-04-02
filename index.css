@@ -562,6 +562,7 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    margin-bottom: 4rem; /* bottom margin */
 }
 
 @media(max-width: 900px) {
