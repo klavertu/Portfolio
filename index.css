@@ -177,6 +177,8 @@ p {
 @media(max-width: 900px) {
     p { 
         max-width: var(--container-small-width);
+        margin: auto;
+        margin-bottom: 2rem;
     }
 }
 
@@ -459,6 +461,7 @@ body:not(.user-is-tabbing) a:focus {
     }
     .work__boxop {
         align-items: initial;
+        flex-direction: column;
     }
 }
 
