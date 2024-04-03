@@ -558,14 +558,13 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    margin-bottom: 25rem; /* bottom margin */
 }
 
 @media(max-width: 900px) {
     .about__content {
         flex-direction: column-reverse;
+        align-self: flex-start;
         align-items: initial;
-        margin-bottom: var(--gutter-small);
     }
 }
 
