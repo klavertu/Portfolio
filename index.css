@@ -474,7 +474,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 50%;
+    flex: 0 0 60%;
     margin-right: 5rem;
 }
 .portfoliopage__text {
