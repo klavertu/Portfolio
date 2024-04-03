@@ -638,7 +638,7 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
     .footer__social-image {
-        max-width: 100%; /* Ensure images don't exceed their container width */
+        max-width: 25%; /* Ensure images don't exceed their container width */
         height: auto; /* Maintain aspect ratio */
     }
 }
