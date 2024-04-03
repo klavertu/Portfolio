@@ -162,6 +162,7 @@ h3 {
 
     h2 {
         font-size: var(--font-size-medium-1);
+        padding-top: 10rem;
     }
 
     h3 {
@@ -425,6 +426,7 @@ body:not(.user-is-tabbing) a:focus {
 @media(max-width: 500px) {
     .header {
         text-align: center;
+        height: 0%;
     }
 
     .header__text p {
