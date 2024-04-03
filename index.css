@@ -444,11 +444,6 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
 }
 
-.work__boxop {
-    display: flex;
-    align-items: center;
-}
-
 @media(max-width: 900px) {
     .work__box {
         align-items: initial;
@@ -457,10 +452,6 @@ body:not(.user-is-tabbing) a:focus {
     .portfoliopage__box {
         align-self: flex-start;
         align-items: initial;
-    }
-    .work__boxop {
-        align-items: initial;
-        flex-direction: column;
     }
 }
 
@@ -480,7 +471,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 30%;
+    flex: 0 0 60%;
 }
 .portfoliopage__text {
     flex: 1;
