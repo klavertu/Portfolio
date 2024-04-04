@@ -102,8 +102,12 @@ body {
 
 
 section {
-    padding: var(--gutter-huge) 0;
+    /*padding: var(--gutter-huge) 0;*/
     border-bottom: var(--border-light);
+    padding-top: 3rem;
+    margin-top: 4rem;
+    border-top: var(--border-light);
+}
 }
 
 img {
