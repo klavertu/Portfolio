@@ -447,6 +447,14 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
 }
 
+.portfolio{
+    border-bottom: var(--border-light);
+    padding-top: 3rem;
+    margin-top: 4rem;
+    border-top: var(--border-light);
+    
+}
+
 @media(max-width: 900px) {
     .work__box {
         align-items: initial;
