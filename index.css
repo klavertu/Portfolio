@@ -102,12 +102,8 @@ body {
 
 
 section {
-    /*padding: var(--gutter-huge) 0;*/
+    padding: var(--gutter-huge) 0;
     border-bottom: var(--border-light);
-    padding-top: 3rem;
-    margin-top: 4rem;
-    border-top: var(--border-light);
-}
 }
 
 img {
@@ -567,7 +563,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__content {
     display: flex;
-    /*flex-direction: row-reverse;*/
+    flex-direction: row-reverse;
     align-items: center;
 }
 
@@ -585,17 +581,16 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(min-width: 901px) {
     .about__text {
-        flex: 0 0 60%;
-        margin-right: 5rem;
-        align-self: self-start;
-        font-size: 1.5rem;
+        flex: 0 0 50%;
     }
     
     .about__photo-container {
         display: flex;
-        justify-content: space-around;
+        flex: 1;
+        justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
+
+        margin-right: 30px; /* Right margin */
     }
    .about__photo {
         max-width: 100%; /* Ensure the image doesn't exceed its container width */
