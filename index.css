@@ -563,7 +563,6 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__content {
     display: flex;
-    flex-direction: row-reverse;
     align-items: center;
 }
 .about__contenthome {
@@ -576,12 +575,19 @@ body:not(.user-is-tabbing) a:focus {
         align-self: flex-start;
         align-items: initial;
     }
+    .about__contenthome {
+        flex-direction: column-reverse;
+        align-self: flex-start;
+        align-items: initial;
+    }
 }
 
 .about__photo-container {
      margin-bottom: var(--gutter-normal);
 }
-
+.aboutmepage__photo-container {
+    margin-bottom: var(--gutter-normal);
+    }
 @media(min-width: 901px) {
     .about__text {
         flex: 0 0 50%;
