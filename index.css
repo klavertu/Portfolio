@@ -571,12 +571,12 @@ body:not(.user-is-tabbing) a:focus {
 }
 @media(max-width: 900px) {
     .about__content {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-self: flex-start;
         align-items: initial;
     }
     .about__contenthome {
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-self: flex-start;
         align-items: initial;
     }
