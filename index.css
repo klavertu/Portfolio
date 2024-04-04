@@ -586,6 +586,12 @@ body:not(.user-is-tabbing) a:focus {
     .about__text {
         flex: 0 0 50%;
     }
+    .aboutmepage__text {
+        flex: 0 0 60%;
+        margin-right: 5rem;
+        align-self: self-start;
+        font-size: 1.5rem;
+    }
     
     .about__photo-container {
         display: flex;
@@ -594,6 +600,13 @@ body:not(.user-is-tabbing) a:focus {
         align-items: center;
 
         margin-right: 30px; /* Right margin */
+    }
+
+    .aboutmepage__photo-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
     }
    .about__photo {
         max-width: 100%; /* Ensure the image doesn't exceed its container width */
