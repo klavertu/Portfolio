@@ -600,9 +600,13 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     .work__links {
-    display: flex;
-    align-items: left;
-}
+        display: flex;
+        align-items: left;
+    }
+        .work__image-box {
+            display: flex;
+            align-items: left;
+    }
 }
 
 /* --------------------------------------- */
