@@ -530,6 +530,11 @@ body:not(.user-is-tabbing) a:focus {
     .work__box:not(:last-child) {
         margin-bottom: 5rem;
     }
+
+    .work__links {
+    display: flex;
+    align-items: left;
+    }
 }
 
 .work__links {
@@ -593,6 +598,11 @@ body:not(.user-is-tabbing) a:focus {
     .work__code {
         height: 4rem;
     }
+
+    .work__links {
+    display: flex;
+    align-items: left;
+}
 }
 
 /* --------------------------------------- */
