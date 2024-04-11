@@ -592,6 +592,10 @@ body:not(.user-is-tabbing) a:focus {
         display: flex;
         width: 100%;
     }
+    .work__links {
+        display: flex;
+        align-items: center;
+}
 }
 
 @media(max-width: 900px) {
