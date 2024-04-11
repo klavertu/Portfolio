@@ -539,7 +539,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__links {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .work__text {
