@@ -610,6 +610,7 @@ body:not(.user-is-tabbing) a:focus {
         .work__image-box {
             display: flex;
             align-items: left;
+            flex-wrap: wrap;
     }
 }
 
