@@ -532,14 +532,24 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     .work__links {
-    display: flex;
-    align-items: left;
+        display: flex;
+        align-items: left;
+    }
+
+    .portfoliopage__links {
+        display: flex;
+        align-items: left;
     }
 }
 
 .work__links {
     display: flex;
     justify-content: center;
+}
+
+.portfoliopage__links {
+    display: flex;
+    align-items: left;
 }
 
 .work__text {
@@ -595,7 +605,12 @@ body:not(.user-is-tabbing) a:focus {
     .work__links {
         display: flex;
         align-items: center;
-}
+    }
+    
+    .portfoliopage__links {
+        display: flex;
+        align-items: left;
+    }
 }
 
 @media(max-width: 900px) {
@@ -604,6 +619,10 @@ body:not(.user-is-tabbing) a:focus {
     }
 
     .work__links {
+        display: flex;
+        align-items: left;
+    }
+    .portfoliopage__links {
         display: flex;
         align-items: left;
     }
