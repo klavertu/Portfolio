@@ -741,7 +741,7 @@ portfoliopage__image-box{
     
     .about__photo-container {
         display: flex;
-        flex: 0 0 40%;
+        /*flex: 0 0 40%;*/
         justify-content: center;
         align-items: center;
         margin-right: 30px; /* Right margin */
