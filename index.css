@@ -90,6 +90,8 @@ body {
 @media(max-width: 1240px) {
     .row {
         padding: 0 var(--gutter-medium);
+        /* added */
+        text-align: center;
     }
 }
 
